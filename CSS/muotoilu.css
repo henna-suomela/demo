@@ -52,6 +52,7 @@ h3 {
     padding-bottom: 50px;
     
 }
+
 .alapilvi {
     position: absolute;
     left: 200px;
@@ -134,7 +135,7 @@ hr {
     text-decoration: none;
   }
   
-  .btn:hover {
+.btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #30e3cb);
     background-image: -moz-linear-gradient(top, #30e3cb, #30e3cb);
@@ -143,3 +144,28 @@ hr {
     background-image: linear-gradient(to bottom, #30e3cb, #30e3cb);
     text-decoration: none;
   }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #eaf6f6;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    color: #3a7a7a;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+    
