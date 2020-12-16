@@ -1,0 +1,198 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bold;   
+}
+
+h4 {
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5 rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-top: 10%;
+    text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections  */
+
+.red-section {
+    background-color: #ff4b5c;
+    color: white;
+}
+
+.light-section {
+    background-color:#e0ece4;
+
+}
+
+
+/* Title section */
+
+#title .container-fluid {
+    padding: 3% 7% 15%;
+    text-align: left;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px; 
+}
+
+.nav-link {
+    font-size: 1.23rem;
+    font-family: "Montserrat";
+    color: white;
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.eye {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+
+/* Feature Box */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5% 
+}
+
+.fas {
+    color: #ff4b5c;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #056674;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #66bfbf;
+    color: #e0ece4;
+ 
+}
+
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.angela {
+    width: 50%;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 0% 20%;
+}
+
+#press {
+    background-color: #66bfbf;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 30px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.footer-icons {
+    margin: 20px 10px;
+}
+
+.footer-text {
+    padding: 0% 30%;
+}
+
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .eye{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
