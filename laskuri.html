@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+
+    </div>
+
+    <h3>Calculate discounted price and discount with this calculator.</h3>
+
+    <form class="calc">
+        Price before discount: <input type="text" id="priceBefore"><br>
+        Discount percentage: <input type="text" id="discountPercentage">
+
+        <input type="button" onClick="priceCalculator()" Value="Calculate"/>
+    </form>
+
+    <p>Your new price is: <span id="newPrice"></span></p>
+    <p>Your discount is: <span id = "discount"></span></p>
+
+
+    <script src="uusihinta.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
