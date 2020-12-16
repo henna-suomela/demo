@@ -1,198 +1,184 @@
 body {
-    font-family: "Montserrat";
+    margin: 0px;
     text-align: center;
+    font-family: 'Merriweather', serif;  
+    
 }
 
-h1, h2, h3, h5, h6 {
-    font-family: "Montserrat", sans-serif; 
-    font-weight: bold;   
+h1 {
+    color: #3797a4;
+    font-size: 4.5rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    margin-top: 50px auto 10px auto;
+      
 }
 
-h4 {
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
     font-weight: normal;
-    text-align: center;
 }
 
-p {
-    color: black;
+h3 {
+    color: #f76b8a;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Headings */
-
-.big-heading {
-    font-family: "Montserrat", sans-serif;
-    font-size: 3.5 rem;
-    line-height: 1.5;
-    font-weight: bold;
-    padding-top: 10%;
-    text-align: center;
-}
-
-/* Containers */
-
-.container-fluid {
-    padding: 7% 15%;
-}
-
-/* Sections  */
-
-.red-section {
-    background-color: #ff4b5c;
-    color: white;
-}
-
-.light-section {
-    background-color:#e0ece4;
-
-}
-
-
-/* Title section */
-
-#title .container-fluid {
-    padding: 3% 7% 15%;
-    text-align: left;
-}
-
-
-/* Navigation Bar */
-
-.navbar {
-    padding-bottom: 4.5rem;
-
-}
-
-.navbar-brand {
-    font-family: 'Indie Flower', cursive;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.nav-item {
-    padding: 0 18px; 
-}
-
-.nav-link {
-    font-size: 1.23rem;
-    font-family: "Montserrat";
-    color: white;
-}
-
-/* Download buttons */
-
-.download-button {
-    margin: 5% 3% 5% 0;
-}
-
-/* Title image */
-
-.eye {
-    width: 60%;
-    position: absolute;
-    right: 30%;
-}
-
-
-
-/* Feature Box */
-
-#features {
+.yläsivu {
+    background-color: #8bcdcd;
+    border: 10px;
+    padding-top: 100px;
     position: relative;
-    z-index: 1;
+    font-style: italic;
+    color: #3797a4;
+    line-height: 2;
+    
 }
 
-.feature-title {
-    font-size: 1.5rem;
+.keskisivu {
+    background-color: #fcfefe;
+    padding-top: 100px;
+    line-height: 2;
+    padding-bottom: 100px;
 }
 
-.feature-box {
-    padding: 5% 
-}
-
-.fas {
-    color: #ff4b5c;
-    margin-bottom: 1rem;
-}
-
-.fas:hover {
-    color: #056674;
-}
-
-/* Testimonials */
-
-#testimonials {
+.alasivu {
     background-color: #66bfbf;
-    color: #e0ece4;
- 
+    color: #3a3d3d;
+    height: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
 }
 
-.testimonial-image {
-    width: 30%;
-    border-radius: 100%;
-    margin: 20px;
+.alapilvi {
+    position: relative;
+    left: 200px;
+    top: 150px;
+    
 }
 
-.angela {
+.yläpilvi {
+    position: relative;
+    right: 200px; 
+    top: 50px;
+}
+
+.aboutme {
     width: 50%;
+    margin: auto;
+    line-height: 2;
+    text-align: center;
 }
 
-.testimonial-text {
-    font-size: 2rem;
-    line-height: 1.5;
-    padding: 0% 20%;
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto; 
+    text-align: left;
+    line-height: 2;
+    margin: 100px auto 100px auto; 
 }
 
-#press {
-    background-color: #66bfbf;
-    padding-bottom: 3%;
-
+.nainen {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+        
 }
 
-.press-logo {
-    width: 15%;
-    margin: 20px 30px 50px;
-}
-
-/* Pricing Section */
-
-#pricing {
-    padding: 100px;
-}
-
-.section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-.pricing-column {
-    padding: 3% 2%;
-}
-
-.price-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-/* Footer */
-
-.footer-icons {
-    margin: 20px 10px;
-}
-
-.footer-text {
-    padding: 0% 30%;
-}
-
-
-@media (max-width: 1028px) {
+.läppäri {
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
     
-    #title {
-        text-align: center;
-    }
-    
-    .eye{
-        position: static;
-        transform: rotate(0);
-    }
+}
 
+.aivot {
+    width: 25%;
+    float: left; 
+    margin-right: 30px;
+}
+
+.btn {
+    color: #f76b8a;
+    font-weight: bold;
+}
+
+.contact-me {
+    margin: 50px auto 50px auto; 
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 5%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -moz-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -ms-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -o-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: linear-gradient(to bottom, #30e3cb, #30e3cb);
+    text-decoration: none;
+  }
+
+.topnav {
+    /* background-color: #eaf6f6; */
+    background-color: #8bcdcd;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: center;
+    color: #3a7a7a;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.calc {
+    line-height: 200%;
+}
+  
+
+.topnav a:hover {
+    color: #f76b8a;
+}
+  
+.link {
+    text-decoration: none;
+    color: #3a7a7a;
+}
+
+.vuori {
+    width: 30%;
+    padding: ;
 }
